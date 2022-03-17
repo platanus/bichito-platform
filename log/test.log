@@ -1,0 +1,14 @@
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE DATABASE "bichito-platform_test" ENCODING = 'utf8'[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT pg_try_advisory_lock(525143415161771385)[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to DeviseCreateUsers (20220317190243)
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.3ms)[0m  [1m[35mSET statement_timeout TO 3600000[0m
+  [1m[35m (1.0ms)[0m  [1m[35mSET lock_timeout TO 10000[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT pg_advisory_unlock(525143415161771385)[0m
+An error has occurred, this and all later migrations canceled:
+
+PG::DuplicateTable: ERROR:  relation "users" already exists
+ excluded from capture: No host specified, no public_key specified, no project_id specified

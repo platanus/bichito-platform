@@ -1,0 +1,151 @@
+# Logfile created on 2022-03-17 16:02:39 -0300 by logger.rb/v1.4.2
+[03/17/22 16:02:39 -0300 mba-m1.local (32062)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:39 -0300 mba-m1.local (32062)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:39 -0300 mba-m1.local (32062)] INFO : Not Loading Instruments
+[03/17/22 16:02:39 -0300 mba-m1.local (32062)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:39 -0300 mba-m1.local (32062)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:39 -0300 mba-m1.local (32062)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:41 -0300 mba-m1.local (32088)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:41 -0300 mba-m1.local (32088)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:41 -0300 mba-m1.local (32088)] INFO : Not Loading Instruments
+[03/17/22 16:02:41 -0300 mba-m1.local (32088)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:41 -0300 mba-m1.local (32088)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:41 -0300 mba-m1.local (32088)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:43 -0300 mba-m1.local (32105)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:43 -0300 mba-m1.local (32105)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:43 -0300 mba-m1.local (32105)] INFO : Not Loading Instruments
+[03/17/22 16:02:43 -0300 mba-m1.local (32105)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:43 -0300 mba-m1.local (32105)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:43 -0300 mba-m1.local (32105)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:45 -0300 mba-m1.local (32120)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:45 -0300 mba-m1.local (32120)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:45 -0300 mba-m1.local (32120)] INFO : Not Loading Instruments
+[03/17/22 16:02:45 -0300 mba-m1.local (32120)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:45 -0300 mba-m1.local (32120)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:45 -0300 mba-m1.local (32120)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:49 -0300 mba-m1.local (32158)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:49 -0300 mba-m1.local (32158)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:49 -0300 mba-m1.local (32158)] INFO : Not Loading Instruments
+[03/17/22 16:02:49 -0300 mba-m1.local (32158)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:49 -0300 mba-m1.local (32158)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:49 -0300 mba-m1.local (32158)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:51 -0300 mba-m1.local (32174)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:51 -0300 mba-m1.local (32174)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:51 -0300 mba-m1.local (32174)] INFO : Not Loading Instruments
+[03/17/22 16:02:51 -0300 mba-m1.local (32174)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:51 -0300 mba-m1.local (32174)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:51 -0300 mba-m1.local (32174)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:53 -0300 mba-m1.local (32190)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:53 -0300 mba-m1.local (32190)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:53 -0300 mba-m1.local (32190)] INFO : Not Loading Instruments
+[03/17/22 16:02:53 -0300 mba-m1.local (32190)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:53 -0300 mba-m1.local (32190)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:53 -0300 mba-m1.local (32190)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:56 -0300 mba-m1.local (32189)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:56 -0300 mba-m1.local (32189)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:56 -0300 mba-m1.local (32189)] INFO : Not Loading Instruments
+[03/17/22 16:02:56 -0300 mba-m1.local (32189)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:56 -0300 mba-m1.local (32189)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:56 -0300 mba-m1.local (32189)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:02:58 -0300 mba-m1.local (32268)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:02:58 -0300 mba-m1.local (32268)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:02:58 -0300 mba-m1.local (32268)] INFO : Not Loading Instruments
+[03/17/22 16:02:58 -0300 mba-m1.local (32268)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:02:58 -0300 mba-m1.local (32268)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:02:58 -0300 mba-m1.local (32268)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:03:44 -0300 mba-m1.local (32523)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:03:44 -0300 mba-m1.local (32523)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:03:44 -0300 mba-m1.local (32523)] INFO : Not Loading Instruments
+[03/17/22 16:03:44 -0300 mba-m1.local (32523)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:03:44 -0300 mba-m1.local (32523)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:03:44 -0300 mba-m1.local (32523)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:03:57 -0300 mba-m1.local (32632)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:03:57 -0300 mba-m1.local (32632)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:03:57 -0300 mba-m1.local (32632)] INFO : Not Loading Instruments
+[03/17/22 16:03:57 -0300 mba-m1.local (32632)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:03:57 -0300 mba-m1.local (32632)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:03:57 -0300 mba-m1.local (32632)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:04:36 -0300 mba-m1.local (32842)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:04:36 -0300 mba-m1.local (32842)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:04:36 -0300 mba-m1.local (32842)] INFO : Not Loading Instruments
+[03/17/22 16:04:36 -0300 mba-m1.local (32842)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:04:36 -0300 mba-m1.local (32842)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:04:36 -0300 mba-m1.local (32842)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:04:39 -0300 mba-m1.local (32880)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:04:39 -0300 mba-m1.local (32880)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:04:39 -0300 mba-m1.local (32880)] INFO : Not Loading Instruments
+[03/17/22 16:04:39 -0300 mba-m1.local (32880)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:04:39 -0300 mba-m1.local (32880)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:04:39 -0300 mba-m1.local (32880)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:04:44 -0300 mba-m1.local (32925)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:04:44 -0300 mba-m1.local (32925)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:04:44 -0300 mba-m1.local (32925)] INFO : Not Loading Instruments
+[03/17/22 16:04:44 -0300 mba-m1.local (32925)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:04:44 -0300 mba-m1.local (32925)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:04:44 -0300 mba-m1.local (32925)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:04:46 -0300 mba-m1.local (32945)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:04:46 -0300 mba-m1.local (32945)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:04:46 -0300 mba-m1.local (32945)] INFO : Not Loading Instruments
+[03/17/22 16:04:46 -0300 mba-m1.local (32945)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:04:46 -0300 mba-m1.local (32945)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:04:46 -0300 mba-m1.local (32945)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:04:59 -0300 mba-m1.local (33086)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:04:59 -0300 mba-m1.local (33086)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:04:59 -0300 mba-m1.local (33086)] INFO : Not Loading Instruments
+[03/17/22 16:04:59 -0300 mba-m1.local (33086)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:04:59 -0300 mba-m1.local (33086)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:04:59 -0300 mba-m1.local (33086)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:05:02 -0300 mba-m1.local (33129)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:05:02 -0300 mba-m1.local (33129)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:05:02 -0300 mba-m1.local (33129)] INFO : Not Loading Instruments
+[03/17/22 16:05:02 -0300 mba-m1.local (33129)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:05:02 -0300 mba-m1.local (33129)] INFO : Monitoring isn't enabled for the [test] environment.
+[03/17/22 16:05:02 -0300 mba-m1.local (33129)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:05:48 -0300 mba-m1.local (33877)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:05:48 -0300 mba-m1.local (33877)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:05:48 -0300 mba-m1.local (33877)] INFO : Not Loading Instruments
+[03/17/22 16:05:48 -0300 mba-m1.local (33877)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:05:48 -0300 mba-m1.local (33877)] INFO : Monitoring isn't enabled for the [test] environment.
+[03/17/22 16:05:48 -0300 mba-m1.local (33877)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:05:48 -0300 mba-m1.local (33865)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:05:48 -0300 mba-m1.local (33865)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:05:48 -0300 mba-m1.local (33865)] INFO : Not Loading Instruments
+[03/17/22 16:05:48 -0300 mba-m1.local (33865)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:05:48 -0300 mba-m1.local (33865)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:05:48 -0300 mba-m1.local (33865)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:05:52 -0300 mba-m1.local (33933)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:05:52 -0300 mba-m1.local (33933)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:05:52 -0300 mba-m1.local (33933)] INFO : Not Loading Instruments
+[03/17/22 16:05:52 -0300 mba-m1.local (33933)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:05:52 -0300 mba-m1.local (33933)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:05:52 -0300 mba-m1.local (33933)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 16:06:02 -0300 mba-m1.local (34279)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 16:06:02 -0300 mba-m1.local (34279)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 16:06:02 -0300 mba-m1.local (34279)] INFO : Not Loading Instruments
+[03/17/22 16:06:02 -0300 mba-m1.local (34279)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 16:06:02 -0300 mba-m1.local (34279)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 16:06:02 -0300 mba-m1.local (34279)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 17:36:25 -0300 MacBook-Pro-3.local (45076)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 17:36:25 -0300 MacBook-Pro-3.local (45076)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 17:36:25 -0300 MacBook-Pro-3.local (45076)] INFO : Not Loading Instruments
+[03/17/22 17:36:25 -0300 MacBook-Pro-3.local (45076)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 17:36:25 -0300 MacBook-Pro-3.local (45076)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 17:36:25 -0300 MacBook-Pro-3.local (45076)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 17:36:44 -0300 MacBook-Pro-3.local (45303)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 17:36:44 -0300 MacBook-Pro-3.local (45303)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 17:36:44 -0300 MacBook-Pro-3.local (45303)] INFO : Not Loading Instruments
+[03/17/22 17:36:44 -0300 MacBook-Pro-3.local (45303)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 17:36:44 -0300 MacBook-Pro-3.local (45303)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 17:36:44 -0300 MacBook-Pro-3.local (45303)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 17:44:33 -0300 MacBook-Pro-3.local (47314)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 17:44:33 -0300 MacBook-Pro-3.local (47314)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 17:44:33 -0300 MacBook-Pro-3.local (47314)] INFO : Not Loading Instruments
+[03/17/22 17:44:33 -0300 MacBook-Pro-3.local (47314)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 17:44:33 -0300 MacBook-Pro-3.local (47314)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 17:44:33 -0300 MacBook-Pro-3.local (47314)] INFO : Deferring agent start. Standing by for first request
+[03/17/22 17:45:08 -0300 MacBook-Pro-3.local (47635)] INFO : No configuration file loaded, and no configuration found in ENV. For assistance configuring Scout, visit https://docs.scoutapm.com/#ruby-configuration-options
+[03/17/22 17:45:08 -0300 MacBook-Pro-3.local (47635)] INFO : Scout Agent [5.1.1] Initialized
+[03/17/22 17:45:08 -0300 MacBook-Pro-3.local (47635)] INFO : Not Loading Instruments
+[03/17/22 17:45:08 -0300 MacBook-Pro-3.local (47635)] INFO : Scout Agent [5.1.1] Installed
+[03/17/22 17:45:08 -0300 MacBook-Pro-3.local (47635)] INFO : Monitoring isn't enabled for the [development] environment.
+[03/17/22 17:45:08 -0300 MacBook-Pro-3.local (47635)] INFO : Deferring agent start. Standing by for first request

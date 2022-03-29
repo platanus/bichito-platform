@@ -5,7 +5,6 @@ interface Props {
   testObject?: {[key: string]: string},
   testList?: number[],
 }
-
 const props = withDefaults(
   defineProps<Props>(),
   {
@@ -15,8 +14,12 @@ const props = withDefaults(
     testList: undefined,
   },
 );
-
 const message = 'Hello World';
+</script>
+
+<script lang='ts'>
+export default {
+};
 </script>
 
 <template>

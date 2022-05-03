@@ -21,7 +21,8 @@
   "extends": [
     "plugin:vue/vue3-recommended",
     "@vue/typescript/recommended",
-    "@vue/eslint-config-typescript"
+    "@vue/eslint-config-typescript",
+    "plugin:tailwindcss/recommended"
   ],
   "rules": {
     "accessor-pairs": 0,
@@ -344,16 +345,18 @@
     "vue/max-len": ["error", {
       "code": 120,
       "ignoreHTMLAttributeValues": true
-  }]
+    }]
   },
   "overrides": [
     {
-        "files": ["*.ts", "*.vue"],
-        "rules": {
-            "no-undef": "off",
-            "no-unused-vars": "off",
-            "@typescript-eslint/no-unused-vars": "error"
-        }
+      "files": ["*.ts", "*.vue"],
+      "rules": {
+        "no-undef": "off",
+        "no-unused-vars": "off",
+        "@typescript-eslint/no-unused-vars": "error",
+        "no-spaced-func": "off",
+        "@typescript-eslint/func-call-spacing": "error"
+      }
     }
   ]
 }

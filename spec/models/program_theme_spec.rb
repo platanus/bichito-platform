@@ -1,5 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe ProgramTheme, type: :model do
-  pending "add some examples to (or delete) #{__FILE__}"
+  context 'with valid attributes' do
+    it { expect(build(:program_theme)).to be_valid }
+  end
 end

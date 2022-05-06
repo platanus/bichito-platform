@@ -10,7 +10,9 @@ module.exports = {
     },
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/line-clamp'),
+  ],
   content: [
     './app/**/*.html',
     './app/**/*.vue',

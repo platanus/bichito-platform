@@ -7,6 +7,9 @@ module.exports = {
       fontFamily: {
         sans: ['Ubuntu', ...fontFamily.sans],
       },
+      aspectRatio: {
+        '5/4': '5 / 4',
+      },
     },
   },
   variants: {},

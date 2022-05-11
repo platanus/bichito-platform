@@ -11,8 +11,8 @@ gem 'enumerize'
 gem 'jbuilder', '~> 2.7'
 gem 'marcel', '~> 1.0'
 gem 'pg'
-gem 'power-types'
 gem 'power_api', '~> 2.0'
+gem 'power-types'
 gem 'puma', '~> 5.0'
 gem 'pundit'
 gem 'rack-cors', '~> 1.1'
@@ -65,11 +65,4 @@ end
 
 group :production, :development, :test do
   gem 'tzinfo-data'
-end
-
-group :development, :test do
-  gem 'rubocop', '~> 1.9'
-  gem 'rubocop-performance'
-  gem 'rubocop-rails'
-  gem 'rubocop-rspec', '~> 2.2'
 end

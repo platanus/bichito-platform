@@ -3,7 +3,7 @@ interface Props {
   type: string,
   stack: string,
   title: string,
-  level: string,
+  difficulty: string,
   description: string,
   link: string,
 }
@@ -12,18 +12,18 @@ withDefaults(defineProps<Props>(), {
   type: 'challenge',
   stack: 'python',
   title: 'Pizzapp',
-  level: 'easy',
+  difficulty: 'easy',
   description: '',
   link: '',
 });
 
-const levelStyles = {
+const difficultyStyles = {
   easy: 'bg-green-100 text-green-800',
   medium: 'bg-yellow-100 text-yellow-800',
   hard: 'bg-red-100 text-red-800',
 };
 
-const levelNames = {
+const difficultyNames = {
   easy: 'baja',
   medium: 'media',
   hard: 'alta',
@@ -37,7 +37,7 @@ const typeNames = {
 </script>
 
 <template>
-  <div class="aspect-5/4 flex flex-col p-4 mx-2 min-w-[85%] bg-white rounded-3xl lg:mx-0 lg:w-full">
+  <div class="aspect-5/4 flex flex-col p-4 mx-2 min-w-[85%] bg-white rounded-3xl md:mx-0 md:w-full">
     <div class="flex flex-row justify-between w-full ">
       <div class="text-sm font-light text-gray-500">
         {{ typeNames[type] }}
@@ -58,9 +58,9 @@ const typeNames = {
 
     <div
       class="px-2 my-1 w-max text-sm rounded-xl"
-      :class="levelStyles[level]"
+      :class="difficultyStyles[difficulty]"
     >
-      Dificultad {{ levelNames[level] }}
+      Dificultad {{ difficultyNames[difficulty] }}
     </div>
 
     <div class="text-sm text-slate-400">

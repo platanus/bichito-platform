@@ -1,5 +1,4 @@
 <script setup lang='ts'>
-import BichitoButton from '../shared/bichito-button.vue';
 </script>
 
 <template>

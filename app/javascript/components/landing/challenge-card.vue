@@ -1,15 +1,15 @@
 <script setup lang='ts'>
 interface Props {
-  type: string,
+  kind: string,
   stack: string,
   title: string,
   difficulty: string,
   description: string,
-  link: string,
+  link?: string,
 }
 
 withDefaults(defineProps<Props>(), {
-  type: 'challenge',
+  kind: 'challenge',
   stack: 'python',
   title: 'Pizzapp',
   difficulty: 'easy',
@@ -29,7 +29,7 @@ const difficultyNames = {
   hard: 'alta',
 };
 
-const typeNames = {
+const kindNames = {
   challenge: 'Desafío',
   homework: 'Guía',
 };
@@ -40,7 +40,7 @@ const typeNames = {
   <div class="aspect-5/4 flex flex-col p-4 mx-2 min-w-[85%] bg-white rounded-3xl md:mx-0 md:w-full">
     <div class="flex flex-row justify-between w-full ">
       <div class="text-sm font-light text-gray-500">
-        {{ typeNames[type] }}
+        {{ kindNames[kind] }}
       </div>
       <div class="flex flex-row">
         <img

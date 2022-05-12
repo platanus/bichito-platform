@@ -27,6 +27,7 @@
         "js": [
           "/packs/js/runtime.js",
           "/packs/js/vendors-node_modules_vue-loader_dist_exportHelper_js-node_modules_vue_dist_vue_esm-bundler_js-976a96.js",
+          "/packs/js/vendors-node_modules_babel_runtime_regenerator_index_js-node_modules_axios_index_js-node_modu-0607f9.js",
           "/packs/js/application.js"
         ],
         "css": [
@@ -40,6 +41,8 @@
   "js/runtime.js.map": "/packs/js/runtime.js.map",
   "js/vendors-node_modules_activeadmin_activeadmin_app_assets_javascripts_active_admin_base_js-node-6284dd.js": "/packs/js/vendors-node_modules_activeadmin_activeadmin_app_assets_javascripts_active_admin_base_js-node-6284dd.js",
   "js/vendors-node_modules_activeadmin_activeadmin_app_assets_javascripts_active_admin_base_js-node-6284dd.js.map": "/packs/js/vendors-node_modules_activeadmin_activeadmin_app_assets_javascripts_active_admin_base_js-node-6284dd.js.map",
+  "js/vendors-node_modules_babel_runtime_regenerator_index_js-node_modules_axios_index_js-node_modu-0607f9.js": "/packs/js/vendors-node_modules_babel_runtime_regenerator_index_js-node_modules_axios_index_js-node_modu-0607f9.js",
+  "js/vendors-node_modules_babel_runtime_regenerator_index_js-node_modules_axios_index_js-node_modu-0607f9.js.map": "/packs/js/vendors-node_modules_babel_runtime_regenerator_index_js-node_modules_axios_index_js-node_modu-0607f9.js.map",
   "js/vendors-node_modules_vue-loader_dist_exportHelper_js-node_modules_vue_dist_vue_esm-bundler_js-976a96.js": "/packs/js/vendors-node_modules_vue-loader_dist_exportHelper_js-node_modules_vue_dist_vue_esm-bundler_js-976a96.js",
   "js/vendors-node_modules_vue-loader_dist_exportHelper_js-node_modules_vue_dist_vue_esm-bundler_js-976a96.js.map": "/packs/js/vendors-node_modules_vue-loader_dist_exportHelper_js-node_modules_vue_dist_vue_esm-bundler_js-976a96.js.map",
   "runtime.js": "/packs/js/runtime.js",

@@ -5,7 +5,7 @@ interface Props {
 }
 withDefaults(defineProps<Props>(), {
   theme: 'dark',
-  size: 'md'
+  size: 'md',
 });
 
 const styles = {
@@ -13,7 +13,7 @@ const styles = {
   yellow: 'bg-yellow-200 hover:bg-yellow-100 text-slate-800 font-bold',
   light: 'bg-white border-2 border-slate-200 text-slate-700',
   sm: 'p-2 text-xs',
-  md: 'p-4 text-sm',
+  md: 'p-4 text-xl',
 };
 
 </script>
@@ -21,7 +21,7 @@ const styles = {
 <template>
   <component
     :is="$attrs.href ? 'a' : 'button'"
-    class="text-center rounded-full hover:shadow-lg sm:px-6 sm:text-base w-max"
+    class="w-max text-center rounded-full hover:shadow-lg sm:px-6 sm:text-base"
     :class="[styles[theme], styles[size]]"
     v-bind="$attrs"
   >

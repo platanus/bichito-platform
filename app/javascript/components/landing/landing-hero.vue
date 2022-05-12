@@ -20,7 +20,7 @@
       <bichito-button
         href="#program"
       >
-        Conoce más del programa
+        Conocer más del programa
       </bichito-button>
     </div>
   </section>

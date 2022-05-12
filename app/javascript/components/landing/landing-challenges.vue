@@ -42,6 +42,7 @@ onMounted(() => {
         v-for="challenge in challenges"
         :key="`challenge-cad-${challenge.id}`"
         :title="challenge.title"
+        :kind="challenge.kind"
         :stack="challenge.stack"
         :difficulty="challenge.difficulty"
         :description="challenge.description"

@@ -14,9 +14,9 @@ withDefaults(defineProps<Props>(), {
 });
 
 const variantStyles = {
-  left: '-rotate-25 mt-44',
+  left: '-rotate-25 mt-32 lg:mt-44 hidden md:block',
   center: 'z-10',
-  right: 'rotate-15 z-20',
+  right: 'rotate-15 z-20 hidden md:block',
 };
 
 </script>
@@ -28,11 +28,11 @@ const variantStyles = {
       <div class="aspect-square absolute z-0 w-full bg-slate-100 rounded-3xl shadow-xl -rotate-12" />
     </div>
     <div
-      class="flex relative flex-col p-5 w-full h-max bg-white rounded-3xl border border-slate-100 shadow-2xl"
+      class="flex relative flex-col items-center p-4 md:p-5 w-full h-max bg-white rounded-xl md:rounded-2xl lg:rounded-3xl border border-slate-100 shadow-2xl"
       :class="variantStyles[variant]"
     >
-      <div class="aspect-21/20 flex flex-col p-4 mx-2 mb-6 w-full bg-slate-200 rounded-3xl lg:mx-0" />
-      <div class="text-lg  text-slate-700">
+      <div class="aspect-21/20 flex flex-col p-4 mb-4 md:mb-6 w-full bg-slate-200 rounded-xl md:rounded-2xl lg:rounded-3xl " />
+      <div class="w-full text-left text-slate-700 md:text-base lg:text-lg">
         {{ title }}
       </div>
     </div>

@@ -8,7 +8,13 @@ module.exports = {
         sans: ['Ubuntu', ...fontFamily.sans],
       },
       aspectRatio: {
+        '21/20': '21 / 20',
         '5/4': '5 / 4',
+        '7/8': '7 / 8 ',
+      },
+      rotate: {
+        '15': '15deg',
+        '25': '25deg',
       },
     },
   },

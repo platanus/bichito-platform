@@ -10,12 +10,12 @@ const posts = [
 </script>
 
 <template>
-  <section class="flex relative flex-col items-center px-4 pb-14">
+  <section class="flex relative flex-col items-center px-4 pb-16 md:pb-14">
     <img
       :src="require('../../../assets/images/bee-path-2.svg')"
-      class="absolute left-0"
+      class="z-30 h-2/3 rotate-12 md:rotate-0 absolute -top-12 md:top-0 -left-16 md:-left-4 lg:left-0 md:h-auto"
     >
-    <div class="grid grid-cols-3 mt-28 w-[80%]">
+    <div class="mt-28 w-[80%] md:grid md:grid-cols-3">
       <post-card
         v-for="post in posts "
         :key="`news-card-${post.id}`"
@@ -26,7 +26,7 @@ const posts = [
     </div>
     <img
       :src="require('../../../assets/images/bee-path-3.svg')"
-      class="absolute right-0 -bottom-24"
+      class="z-30 h-2/3 absolute -right-64 md:-right-48 lg:right-0 -bottom-32 md:h-auto"
     >
   </section>
 </template>

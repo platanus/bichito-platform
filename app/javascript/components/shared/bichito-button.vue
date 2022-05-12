@@ -1,7 +1,7 @@
 <script setup lang='ts'>
 interface Props {
-  theme: string,
-  size: string,
+  theme?: string,
+  size?: string,
 }
 withDefaults(defineProps<Props>(), {
   theme: 'dark',

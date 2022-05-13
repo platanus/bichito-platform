@@ -45,6 +45,7 @@ RSpec.describe 'Api::Internal::ChallengesControllers', type: :request do
     end
 
     it { expect(attributes).to include(params[:challenge]) }
+    it { expect { perform }.to change { Challenge.count }.by (1) }
     it { expect(response.status).to eq(201) }
   end
 
@@ -113,21 +114,29 @@ RSpec.describe 'Api::Internal::ChallengesControllers', type: :request do
   end
 
   describe 'DELETE /destroy' do
-    let(:challenge) { create(:challenge) }
+    let!(:challenge) { create(:challenge) }
     let(:challenge_id) { challenge.id.to_s }
 
     def perform
-      get "/api/internal/challenges/#{challenge_id}"
+      delete "/api/internal/challenges/#{challenge_id}"
     end
 
-    before do
-      perform
+    context 'with correct response status' do
+      before do
+        perform
+      end
+
+      it { expect(response.status).to eq(204) }
     end
 
-    it { expect(response.status).to eq(200) }
+    it { expect { perform }.to change { Challenge.count }.by (-1) }
 
     context 'with resource not found' do
       let(:challenge_id) { '666' }
+
+      before do
+        perform
+      end
 
       it { expect(response.status).to eq(404) }
     end

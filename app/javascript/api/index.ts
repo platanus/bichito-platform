@@ -8,7 +8,7 @@ const api = axios.create({
 });
 
 api.interceptors.response.use((response: AxiosResponse) => {
-  if (response.data && response.headers['content-type'] === 'application/json') {
+  if (response.data && response.headers['content-type'].includes('application/json')) {
     response.data = camelizeKeys(response.data);
   }
 

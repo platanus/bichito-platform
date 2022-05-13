@@ -43,6 +43,7 @@ onMounted(() => {
         :key="`news-card-${post.id}`"
         :variant="POSTS_VARIANTS[id]"
         :title="post.title"
+        :image-url="post.imageUrl"
         :bg-cards="post.bgCards"
       />
     </div>

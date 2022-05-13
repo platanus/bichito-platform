@@ -1,4 +1,6 @@
 class Post < ApplicationRecord
+  include ImageUploader::Attachment(:image)
+
   validates :title, presence: true
 end
 
@@ -10,4 +12,5 @@ end
 #  title      :string           not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
+#  image_data :jsonb
 #

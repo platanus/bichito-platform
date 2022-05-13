@@ -54,6 +54,16 @@ ActiveRecord::Schema.define(version: 2022_05_13_191504) do
 
   create_table "posts", force: :cascade do |t|
     t.string "title", null: false
+  end
+
+  create_table "data_migrations", primary_key: "version", id: :string, force: :cascade do |t|
+  end
+
+  create_table "members", force: :cascade do |t|
+    t.string "name", null: false
+    t.text "description", null: false
+    t.jsonb "image_data", null: false
+    t.string "role", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.jsonb "image_data"

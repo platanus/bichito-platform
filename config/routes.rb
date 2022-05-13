@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   ActiveAdmin.routes(self)
   namespace :api, defaults: { format: :json } do
     namespace :internal do
+      resources :posts
       resources :challenges
     end
   end

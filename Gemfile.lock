@@ -1,3 +1,15 @@
+GIT
+  remote: https://github.com/platanus/activeadmin_addons
+  revision: 8c9c70a8baf48039c330ff050689f5047d24823f
+  specs:
+    activeadmin_addons (1.9.0)
+      active_material
+      railties
+      require_all
+      sassc
+      sassc-rails
+      xdan-datetimepicker-rails (~> 2.5.1)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -45,22 +57,15 @@ GEM
       activemodel (>= 4.1, < 7.1)
       case_transform (>= 0.2)
       jsonapi-renderer (>= 0.1.1.beta1, < 0.3)
-    activeadmin (2.11.0)
+    activeadmin (2.13.0)
       arbre (~> 1.2, >= 1.2.1)
       formtastic (>= 3.1, < 5.0)
       formtastic_i18n (~> 0.4)
       inherited_resources (~> 1.7)
       jquery-rails (~> 4.2)
       kaminari (~> 1.0, >= 1.2.1)
-      railties (>= 6.0, < 7.1)
-      ransack (~> 2.1, >= 2.1.1)
-    activeadmin_addons (1.9.0)
-      active_material
-      railties
-      require_all
-      sassc
-      sassc-rails
-      xdan-datetimepicker-rails (~> 2.5.1)
+      railties (>= 6.1, < 7.1)
+      ransack (>= 2.1.1, < 4)
     activejob (6.1.5)
       activesupport (= 6.1.5)
       globalid (>= 0.3.6)
@@ -490,7 +495,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin (~> 2.9)
-  activeadmin_addons
+  activeadmin_addons!
   annotate (~> 3.0)
   aws-sdk-s3 (~> 1.0)
   better_errors

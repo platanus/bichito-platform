@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'activeadmin', '~> 2.9'
-gem 'activeadmin_addons'
+gem 'activeadmin_addons', git: 'https://github.com/platanus/activeadmin_addons'
 gem 'aws-sdk-s3', '~> 1.0'
 gem 'bootsnap', require: false
 gem 'data_migrate'

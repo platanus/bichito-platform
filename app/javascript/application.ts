@@ -7,6 +7,8 @@ import LandingHero from './components/landing/landing-hero.vue';
 import LandingChallenges from './components/landing/landing-challenges.vue';
 import LandingPosts from './components/landing/landing-posts.vue';
 import LandingInvitation from './components/landing/landing-invitation.vue';
+import MemberCard from './components/landing/member-card.vue';
+import LandingMembers from './components/landing/landing-members.vue';
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = createApp({
@@ -16,9 +18,11 @@ document.addEventListener('DOMContentLoaded', () => {
       LandingChallenges,
       LandingPosts,
       LandingInvitation,
+      LandingMembers,
     },
   });
 
+  app.component('MemberCard', MemberCard);
   app.component('BichitoButton', BichitoButton);
   app.mount('#vue-app');
 

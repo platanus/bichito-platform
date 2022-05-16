@@ -66,7 +66,8 @@ const kindNames = {
     <div class="flex flex-col grow justify-end items-center">
       <bichito-button
         v-if="link && showMore"
-        href="#challenges"
+        :href="link"
+        target="_blank"
         theme="light"
         size="sm"
       >

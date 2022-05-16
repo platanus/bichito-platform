@@ -8,6 +8,14 @@ const loading = ref(true);
 const error = ref(false);
 const CHALLENGES_LIMIT = 3;
 
+interface Props {
+  showMore?: boolean,
+}
+
+withDefaults(defineProps<Props>(), {
+  showMore: false,
+});
+
 async function getChallenges() {
   try {
     const response = await challengeApi.get();
@@ -46,10 +54,13 @@ onMounted(() => {
         :stack="challenge.stack"
         :difficulty="challenge.difficulty"
         :description="challenge.description"
+        :link="challenge.link"
+        :show-more="showMore"
       />
     </div>
     <div class="py-16">
       <bichito-button
+        v-if="showMore"
         href="#challenges"
         theme="yellow"
       >

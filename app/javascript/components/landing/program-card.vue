@@ -13,8 +13,8 @@ const value = props.program.order <= icons.length ?
 </script>
 
 <template>
-  <div class="flex flex-col justify-between p-4 overflow-hidden bg-white border space-y-7 w-96 h-72 border-slate-200 lg:w-60 lg:h-64">
-    <div class="flex items-start justify-between overflow-hidden">
+  <div class="flex overflow-hidden flex-col justify-between p-4 space-y-7 w-96 h-72 bg-white border border-slate-200 lg:w-60 lg:h-64">
+    <div class="flex overflow-hidden justify-between items-start">
       <div>
         <p class="text-sm text-slate-400">
           Tema {{ program.order }}

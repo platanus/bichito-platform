@@ -1,15 +1,15 @@
 <template>
   <section
-    :style="`background-image: url('${require('../../../assets/images/yellow-background.png')}')`"
-    class="px-10 my-0 bg-center bg-cover lg:h-screen lg:px-56"
+    :style="`background-image: url('${require('images/yellow-background.png')}')`"
+    class="px-10 my-0 bg-center bg-cover lg:px-56 lg:h-screen"
   >
-    <div class="container flex flex-col items-center pt-32 pb-32 lg:pt-48 lg:flex-row">
+    <div class="container flex flex-col items-center py-32 lg:flex-row lg:pt-48">
       <div class="flex-col space-y-10 lg:mr-20">
         <div class="space-y-4 text-center lg:text-left">
-          <p class="lg:text-xl text-slate-500">
+          <p class="text-slate-500 lg:text-xl">
             Nuestra misión
           </p>
-          <h2 class="text-3xl font-semibold lg:text-4xl text-slate-800">
+          <h2 class="text-3xl font-semibold text-slate-800 lg:text-4xl">
             ¿Quienes somos?
           </h2>
         </div>
@@ -22,7 +22,7 @@
         </div>
       </div>
       <img
-        class="rounded-xl w-72 md:w-96"
+        class="w-72 rounded-xl md:w-96"
         src="https://placehold.jp/347x347.png"
       >
     </div>

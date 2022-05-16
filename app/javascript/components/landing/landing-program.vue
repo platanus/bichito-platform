@@ -24,7 +24,7 @@ const programThemesList = computed(() => props.programThemes.slice(0, display.va
       </h2>
       <div>
         <img
-          :src="require('../../../assets/images/bee-path-linear.svg')"
+          :src="require('images/bee-path-linear.svg')"
           class="object-scale-down absolute right-0 mt-4 w-80 md:object-fill md:-bottom-60 md:w-2/3 lg:-bottom-3/4"
         >
       </div>

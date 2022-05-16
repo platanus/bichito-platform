@@ -9,6 +9,7 @@ import LandingPosts from './components/landing/landing-posts.vue';
 import LandingInvitation from './components/landing/landing-invitation.vue';
 import MemberCard from './components/landing/member-card.vue';
 import LandingMembers from './components/landing/landing-members.vue';
+import LandingProgramming from './components/landing/landing-programming.vue';
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = createApp({

@@ -1,7 +1,7 @@
 <div>
  <nav-bar> </nav-bar>
  <landing-hero> </landing-hero>
- <landing-challenges> </landing-challenges>
+ <landing-challenges :show-more="<%=@show_challenges%>"> </landing-challenges>
  <landing-members :members="<%= ActiveModelSerializers::SerializableResource.new(@members).to_json %>"></landing-members>
  <landing-posts></landing-posts>
  <landing-invitation> </landing-invitation>

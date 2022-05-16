@@ -6,15 +6,12 @@ interface Props {
   difficulty: string,
   description: string,
   link?: string,
+  showMore?: boolean,
 }
 
 withDefaults(defineProps<Props>(), {
-  kind: 'challenge',
-  stack: 'python',
-  title: 'Pizzapp',
-  difficulty: 'easy',
-  description: '',
-  link: '',
+  link: undefined,
+  showMore: false,
 });
 
 const difficultyStyles = {
@@ -68,6 +65,7 @@ const kindNames = {
     </div>
     <div class="flex flex-col grow justify-end items-center">
       <bichito-button
+        v-if="link && showMore"
         href="#challenges"
         theme="light"
         size="sm"

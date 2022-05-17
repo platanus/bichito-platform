@@ -1,4 +1,5 @@
 import { createApp } from 'vue';
+import VueSvgInlinePlugin from 'vue-svg-inline-plugin';
 import './css/application.css';
 
 import NavBar from './components/shared/nav-bar.vue';
@@ -10,6 +11,7 @@ import LandingInvitation from './components/landing/landing-invitation.vue';
 import MemberCard from './components/landing/member-card.vue';
 import LandingMembers from './components/landing/landing-members.vue';
 import LandingProgramming from './components/landing/landing-programming.vue';
+import BichitoFooter from './components/shared/bichito-footer.vue';
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = createApp({
@@ -20,11 +22,14 @@ document.addEventListener('DOMContentLoaded', () => {
       LandingPosts,
       LandingInvitation,
       LandingMembers,
+      LandingProgramming,
+      BichitoFooter,
     },
   });
 
   app.component('MemberCard', MemberCard);
   app.component('BichitoButton', BichitoButton);
+  app.use(VueSvgInlinePlugin);
   app.mount('#vue-app');
 
   return app;

@@ -11,6 +11,7 @@ import LandingInvitation from './components/landing/landing-invitation.vue';
 import MemberCard from './components/landing/member-card.vue';
 import LandingMembers from './components/landing/landing-members.vue';
 import LandingProgramming from './components/landing/landing-programming.vue';
+import BichitoFooter from './components/shared/bichito-footer.vue';
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = createApp({
@@ -21,6 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
       LandingPosts,
       LandingInvitation,
       LandingMembers,
+      LandingProgramming,
       BichitoFooter,
     },
   });

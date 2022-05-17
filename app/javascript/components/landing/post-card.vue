@@ -31,14 +31,18 @@ const currentVariant = computed(() => variantStyles[props.variant as keyof typeo
       <div class="aspect-square absolute z-0 w-full bg-slate-100 rounded-3xl shadow-xl -rotate-12" />
     </div>
     <div
+      class="flex relative flex-col items-center p-4 w-full h-max bg-white rounded-xl border border-slate-100 shadow-2xl md:p-5 lg:rounded-2xl"
       :class="currentVariant"
     >
-     <img
+      <img
         v-if="imageUrl"
         :src="imageUrl"
-        class="object-cover aspect-21/20 flex flex-col mb-4 md:mb-6 w-full rounded-2xl "
-      > 
-      <div v-else class="aspect-21/20 flex flex-col p-4 mb-4 md:mb-6 w-full bg-slate-200 rounded-xl md:rounded-2xl " />
+        class="aspect-21/20 flex object-cover flex-col mb-4 w-full rounded-2xl md:mb-6 "
+      >
+      <div
+        v-else
+        class="aspect-21/20 flex flex-col p-4 mb-4 w-full bg-slate-200 rounded-xl md:mb-6 md:rounded-2xl "
+      />
       <div class="w-full text-left text-slate-700 md:text-base lg:text-lg">
         {{ title }}
       </div>

@@ -46,7 +46,7 @@ const difficultyStyleVariant = computed(() => difficultyStyles[props.difficulty 
 </script>
 
 <template>
-  <div class="aspect-5/4 flex flex-col p-4 mx-2 min-w-[85%] bg-white rounded-3xl md:mx-0 md:w-full">
+  <div class="aspect-5/4 flex flex-col p-4 mx-2 space-y-4 min-w-[85%] bg-white rounded-3xl md:mx-0 md:w-full">
     <div class="flex flex-row justify-between w-full ">
       <div class="text-sm font-light text-gray-500">
         {{ kindVariant }}

@@ -11,7 +11,7 @@
         2 colegios, 3 cursos, 30+ estudiantes en el primer año
       </h1>
     </div>
-    <bichito-button href="#invitation">
+    <bichito-button href="mailto:bichito@platan.us">
       ¡Quiero saber más!
     </bichito-button>
   </section>

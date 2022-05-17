@@ -31,10 +31,10 @@ onMounted(() => {
     v-if="!loading"
     class="flex relative flex-col items-center px-4 pb-16 md:pb-14"
   >
-    <img
+    <inline-svg
       :src="require('images/bee-path-2.svg')"
       class="absolute -top-24 -left-16 z-30 h-2/4 rotate-12 md:top-0 md:-left-4 md:rotate-0 lg:left-0 lg:h-auto"
-    >
+    />
     <div class="mt-28 w-[80%] md:grid md:grid-cols-3">
       <post-card
         v-for="(post, id) in posts "
@@ -45,9 +45,9 @@ onMounted(() => {
         :bg-cards="post.bgCards"
       />
     </div>
-    <img
+    <inline-svg
       :src="require('images/bee-path-3.svg')"
       class="absolute -right-0 -bottom-48 z-30 h-2/4 lg:h-auto"
-    >
+    />
   </section>
 </template>

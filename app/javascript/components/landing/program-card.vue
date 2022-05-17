@@ -23,9 +23,9 @@ const value = props.program.order <= icons.length ?
           {{ program.title }}
         </p>
       </div>
-      <img
+      <inline-svg
         :src="require(`images/${icons[value]}.svg`)"
-      >
+      />
     </div>
     <div class="line-clamp-6">
       <p class="text-sm">

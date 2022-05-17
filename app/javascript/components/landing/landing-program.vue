@@ -16,16 +16,16 @@ const programThemesList = computed(() => props.programThemes.slice(0, display.va
 <template>
   <div
     id="program"
-    class="container px-8 mx-auto mb-10 sm:px-0"
+    class="relative pt-80 pb-16 mx-auto sm:px-0 sm:pt-0"
   >
-    <div class="flex items-center mb-12 lg:mb-16">
-      <h2 class="text-3xl font-semibold text-slate-800 md:px-12 lg:px-28 lg:text-4xl">
+    <div class="flex relative items-center mb-12 lg:mb-16">
+      <h2 class="px-8 text-3xl font-semibold text-slate-800 md:px-12 lg:px-40 lg:text-4xl">
         El programa
       </h2>
       <div>
         <img
           :src="require('images/bee-path-linear.svg')"
-          class="object-scale-down absolute right-0 mt-4 w-80 md:object-fill md:-bottom-60 md:w-2/3 lg:-bottom-3/4"
+          class="absolute top-4 right-0 mt-4 w-72 md:object-fill md:-bottom-60 md:w-2/3 lg:-top-16"
         >
       </div>
     </div>

@@ -1,9 +1,9 @@
 <template>
   <section
     :style="`background-image: url('${require('images/yellow-background.png')}')`"
-    class="px-10 my-0 bg-center bg-cover lg:px-56 lg:h-screen"
+    class="flex justify-center h-screen bg-center bg-cover"
   >
-    <div class="container flex flex-col items-center py-32 lg:flex-row lg:pt-48">
+    <div class="flex flex-col items-center pt-40 w-8/12 md:pt-64 lg:flex-row lg:pt-0">
       <div class="flex-col space-y-10 lg:mr-20">
         <div class="space-y-4 text-center lg:text-left">
           <p class="text-slate-500 lg:text-xl">
@@ -22,8 +22,8 @@
         </div>
       </div>
       <img
-        class="w-72 rounded-xl md:w-96"
-        src="https://placehold.jp/347x347.png"
+        class="w-72 rounded-xl shadow-xl md:w-96"
+        :src="require('images/team.jpg')"
       >
     </div>
   </section>

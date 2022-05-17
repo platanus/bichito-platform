@@ -1,13 +1,12 @@
 <script setup lang='ts'>
-import { ref, computed, onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 import PostCard from './post-card.vue';
 import postApi from '../../api/post';
-
 
 const POSTS_LIMIT = 3;
 const POSTS_VARIANTS = ['left', 'center', 'right'];
 
-const posts = ref(null);
+const posts = ref<Post[]>([]);
 const loading = ref(true);
 const error = ref(false);
 
@@ -25,7 +24,6 @@ onMounted(() => {
   getPosts();
 });
 
-
 </script>
 
 <template>
@@ -35,7 +33,7 @@ onMounted(() => {
   >
     <img
       :src="require('images/bee-path-2.svg')"
-      class="z-30 h-2/3 rotate-12 md:rotate-0 absolute -top-12 md:top-0 -left-16 md:-left-4 lg:left-0 md:h-auto"
+      class="absolute -top-24 -left-16 z-30 h-2/4 rotate-12 md:top-0 md:-left-4 md:rotate-0 lg:left-0 lg:h-auto"
     >
     <div class="mt-28 w-[80%] md:grid md:grid-cols-3">
       <post-card
@@ -49,7 +47,7 @@ onMounted(() => {
     </div>
     <img
       :src="require('images/bee-path-3.svg')"
-      class="z-30 h-2/3 absolute -right-64 md:-right-48 lg:right-0 -bottom-32 md:h-auto"
+      class="absolute -right-0 -bottom-48 z-30 h-2/4 lg:h-auto"
     >
   </section>
 </template>

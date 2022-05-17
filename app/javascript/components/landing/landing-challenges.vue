@@ -3,7 +3,7 @@ import { ref, onMounted } from 'vue';
 import ChallengeCard from './challenge-card.vue';
 import challengeApi from '../../api/challenge';
 
-const challenges = ref(null);
+const challenges = ref<Challenge[]>([]);
 const loading = ref(true);
 const error = ref(false);
 const CHALLENGES_LIMIT = 3;

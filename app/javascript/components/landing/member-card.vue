@@ -17,7 +17,7 @@ const image = props.member.image_url ?? require('images/default-avatar.png');
     @mouseleave="hover = false"
   >
     <div
-      :class="{ 'z-10 bg-white border-slate-200 border rounded-2xl drop-shadow-xl absolute': hover }"
+      :class="{ 'z-40 bg-white border-slate-200 border rounded-2xl drop-shadow-xl absolute': hover }"
     >
       <div class="flex flex-col items-center p-3 space-y-2 w-60 cursor-pointer">
         <img

@@ -1,18 +1,26 @@
 <script setup lang='ts'>
-interface Props {
-  kind: string,
-  stack: string,
-  title: string,
-  difficulty: string,
-  description: string,
-  link?: string,
-  showMore?: boolean,
-}
+import { computed } from 'vue';
 
-withDefaults(defineProps<Props>(), {
-  link: undefined,
-  showMore: false,
-});
+const props = withDefaults(
+  defineProps<{
+    kind: string,
+    stack: string,
+    title: string,
+    difficulty: string,
+    description: string,
+    link?: string,
+    showMore?: boolean,
+  }>(),
+  {
+    kind: 'challenge',
+    stack: 'python',
+    title: 'Pizzapp',
+    difficulty: 'easy',
+    description: '',
+    link: '',
+    showMore: false,
+  },
+);
 
 const difficultyStyles = {
   easy: 'bg-green-100 text-green-800',
@@ -31,13 +39,17 @@ const kindNames = {
   homework: 'Guía',
 };
 
+const kindVariant = computed(() => kindNames[props.kind as keyof typeof kindNames]);
+const difficultyVariant = computed(() => difficultyNames[props.difficulty as keyof typeof difficultyNames]);
+const difficultyStyleVariant = computed(() => difficultyStyles[props.difficulty as keyof typeof difficultyStyles]);
+
 </script>
 
 <template>
   <div class="aspect-5/4 flex flex-col p-4 mx-2 min-w-[85%] bg-white rounded-3xl md:mx-0 md:w-full">
     <div class="flex flex-row justify-between w-full ">
       <div class="text-sm font-light text-gray-500">
-        {{ kindNames[kind] }}
+        {{ kindVariant }}
       </div>
       <div class="flex flex-row">
         <img
@@ -55,9 +67,9 @@ const kindNames = {
 
     <div
       class="px-2 my-1 w-max text-sm rounded-xl"
-      :class="difficultyStyles[difficulty]"
+      :class="difficultyStyleVariant"
     >
-      Dificultad {{ difficultyNames[difficulty] }}
+      Dificultad {{ difficultyVariant }}
     </div>
 
     <div class="text-sm text-slate-400">

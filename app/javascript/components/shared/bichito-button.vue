@@ -1,12 +1,16 @@
 <script setup lang='ts'>
-interface Props {
-  theme?: string,
-  size?: string,
-}
-withDefaults(defineProps<Props>(), {
-  theme: 'dark',
-  size: 'md',
-});
+import { computed } from 'vue';
+
+const props = withDefaults(
+  defineProps<{
+    theme?: string,
+    size?: string,
+  }>(),
+  {
+    theme: 'dark',
+    size: 'md',
+  },
+);
 
 const styles = {
   dark: 'bg-slate-800 hover:bg-slate-700 text-white font-bold',
@@ -16,13 +20,16 @@ const styles = {
   md: 'p-4 text-xl',
 };
 
+const sizeVariant = computed(() => styles[props.size as keyof typeof styles]);
+const styleVariant = computed(() => styles[props.theme as keyof typeof styles]);
+
 </script>
 
 <template>
   <component
     :is="$attrs.href ? 'a' : 'button'"
     class="w-max text-center rounded-full hover:shadow-lg sm:px-6 sm:text-base"
-    :class="[styles[theme], styles[size]]"
+    :class="[sizeVariant, styleVariant]"
     v-bind="$attrs"
   >
     <slot />

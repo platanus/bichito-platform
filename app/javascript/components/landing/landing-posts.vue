@@ -1,5 +1,5 @@
 <script setup lang='ts'>
-import { ref, computed, onMounted } from 'vue';
+import { ref, onMounted } from 'vue';
 import PostCard from './post-card.vue';
 import postApi from '../../api/post';
 
@@ -7,7 +7,7 @@ import postApi from '../../api/post';
 const POSTS_LIMIT = 3;
 const POSTS_VARIANTS = ['left', 'center', 'right'];
 
-const posts = ref(null);
+const posts = ref<Post[]>([]);
 const loading = ref(true);
 const error = ref(false);
 

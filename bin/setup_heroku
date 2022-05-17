@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# Setup heroku application remotes
+if heroku auth:whoami &> /dev/null; then
+  if heroku apps:info --app  pl-bichito-platform-staging &> /dev/null; then
+    git remote add staging git@heroku.com:pl-bichito-platform-staging.git || true
+    git config heroku.remote staging
+    echo 'You are a collaborator on the "pl-bichito-platform" Heroku app'
+  else
+    echo 'Ask for access to the "pl-bichito-platform" Heroku app'
+  fi
+
+  if heroku apps:info --app  pl-bichito-platform-production &> /dev/null; then
+    git remote add production git@heroku.com:pl-bichito-platform-production.git || true
+    echo 'You are a collaborator on the "pl-bichito-platform-production" Heroku app'
+  else
+    echo 'Ask for access to the "pl-bichito-platform-production" Heroku app'
+  fi
+else
+  echo 'You need to login to heroku. Run "heroku login"'
+fi

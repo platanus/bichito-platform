@@ -1,5 +1,5 @@
 import { createApp } from 'vue';
-import VueSvgInlinePlugin from 'vue-svg-inline-plugin';
+import InlineSvg from 'vue-inline-svg';
 import './css/application.css';
 
 import NavBar from './components/shared/nav-bar.vue';
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   app.component('MemberCard', MemberCard);
   app.component('BichitoButton', BichitoButton);
-  app.use(VueSvgInlinePlugin);
+  app.component('InlineSvg', InlineSvg);
   app.mount('#vue-app');
 
   return app;

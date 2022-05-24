@@ -8,10 +8,10 @@
         Curso de programación para estudiantes de enseñanza media
       </h1>
     </div>
-    <img
+    <inline-svg
       :src="require('images/bee-path.svg')"
       class="absolute top-48 left-0 px-4 w-full sm:top-36 md:w-11/12 lg:top-24 lg:left-10 lg:w-10/12"
-    >
+    />
     <img
       :src="require('images/code-picture.png')"
       class="absolute top-52 w-9/12 sm:w-7/12 lg:w-6/12"

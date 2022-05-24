@@ -23,10 +23,10 @@ const programThemesList = computed(() => props.programThemes.slice(0, display.va
         El programa
       </h2>
       <div>
-        <img
+        <inline-svg
           :src="require('images/bee-path-linear.svg')"
           class="absolute top-4 right-0 mt-4 w-72 md:object-fill md:-bottom-60 md:w-2/3 lg:-top-16"
-        >
+        />
       </div>
     </div>
     <div class="flex flex-col justify-center items-center space-y-12">

@@ -53,6 +53,7 @@ onMounted(() => {
     </div>
     <div class="py-16">
       <bichito-button
+        test-id="show-more-button"
         v-if="SHOW_MORE_CHALLENGES"
         href="#challenges"
         theme="yellow"

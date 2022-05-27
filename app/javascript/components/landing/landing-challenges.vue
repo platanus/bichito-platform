@@ -7,14 +7,7 @@ const challenges = ref<Challenge[]>([]);
 const loading = ref(true);
 const error = ref(false);
 const CHALLENGES_LIMIT = 3;
-
-interface Props {
-  showMore?: boolean,
-}
-
-withDefaults(defineProps<Props>(), {
-  showMore: false,
-});
+const SHOW_MORE_CHALLENGES = process.env.SHOW_MORE_CHALLENGES === 'true';
 
 async function getChallenges() {
   try {
@@ -55,12 +48,13 @@ onMounted(() => {
         :difficulty="challenge.difficulty"
         :description="challenge.description"
         :link="challenge.link"
-        :show-more="showMore"
+        :show-more="SHOW_MORE_CHALLENGES"
       />
     </div>
     <div class="py-16">
       <bichito-button
-        v-if="showMore"
+        test-id="show-more-button"
+        v-if="SHOW_MORE_CHALLENGES"
         href="#challenges"
         theme="yellow"
       >

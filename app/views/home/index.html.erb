@@ -3,7 +3,7 @@
  <landing-hero> </landing-hero>
  <landing-about> </landing-about>
  <landing-program :program-themes="<%= @program_themes.to_json %>"></landing-program>
- <landing-challenges :show-more="<%=@show_challenges%>"> </landing-challenges>
+ <landing-challenges> </landing-challenges>
  <landing-members :members="<%= ActiveModelSerializers::SerializableResource.new(@members).to_json %>"></landing-members>
  <landing-posts></landing-posts>
  <landing-invitation> </landing-invitation>

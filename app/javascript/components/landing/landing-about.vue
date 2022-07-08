@@ -3,7 +3,7 @@
     :style="`background-image: url('${require('images/yellow-background.png')}')`"
     class="flex justify-center h-screen bg-center bg-cover"
   >
-    <div class="flex flex-col items-center pt-40 w-8/12 md:pt-64 lg:flex-row lg:pt-0">
+    <div class="flex flex-col items-center pt-40 w-9/12 md:pt-64 lg:flex-row lg:pt-0">
       <div class="flex-col space-y-10 lg:mr-20">
         <div class="space-y-4 text-center lg:text-left">
           <p class="text-slate-500 lg:text-xl">

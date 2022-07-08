@@ -14,6 +14,7 @@ import LandingProgramming from './components/landing/landing-programming.vue';
 import BichitoFooter from './components/shared/bichito-footer.vue';
 import LandingProgram from './components/landing/landing-program.vue';
 import LandingAbout from './components/landing/landing-about.vue';
+import LandingGoals from './components/landing/landing-goals.vue';
 
 document.addEventListener('DOMContentLoaded', () => {
   const app = createApp({
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
       BichitoFooter,
       LandingProgram,
       LandingAbout,
+      LandingGoals,
     },
   });
 

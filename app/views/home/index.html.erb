@@ -2,7 +2,7 @@
  <nav-bar> </nav-bar>
  <landing-hero> </landing-hero>
  <landing-about> </landing-about>
- <landing-program :program-themes="<%= @program_themes.to_json %>"></landing-program>
+  <landing-goals :goals="<%= serialize_resource(@goals) %>"></landing-goals>
  <landing-challenges> </landing-challenges>
  <landing-members :members="<%= ActiveModelSerializers::SerializableResource.new(@members).to_json %>"></landing-members>
  <landing-posts></landing-posts>

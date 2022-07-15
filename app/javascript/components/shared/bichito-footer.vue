@@ -6,11 +6,23 @@
     class="absolute inset-x-0 z-10 items-center pt-10 pb-20 bg-slate-900"
   >
     <div class="mx-10 md:flex md:justify-between md:mx-32 lg:mx-56">
-      <inline-svg
-        class="mb-10 w-32 text-white"
-        :src="require('images/bichito-logo.svg')"
-        alt="Logo Bichito"
-      />
+      <div>
+        <inline-svg
+          class="mb-4 lg:mb-10 w-32 text-white"
+          :src="require('images/bichito-logo.svg')"
+          alt="Logo Bichito"
+        />
+        <div class="flex text-slate-50">
+          <p>
+            Powered by
+          </p>
+          <inline-svg
+            class="mb-10 w-32 text-white"
+            :src="require('images/platanus-logo.svg')"
+            alt="Logo Platanus"
+          />
+        </div>
+      </div>
       <div>
         <p class="mb-2 text-xl font-medium text-slate-50">
           Contacto
@@ -22,7 +34,10 @@
           <p class="mr-1">
             Escríbenos a
           </p>
-          <a href="mailto:bichito@platan.us">
+          <a
+            href="mailto:bichito@platan.us"
+            class="text-cyan-300"
+          >
             bichito@platan.us
           </a>
         </div>

@@ -19,7 +19,7 @@
     >
     <div class="sm:mt-48 xl:mt-80 2xl:mt-96">
       <bichito-button
-        href="#program"
+        href="#goals"
       >
         Conocer más del programa
       </bichito-button>

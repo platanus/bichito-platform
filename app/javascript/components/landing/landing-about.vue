@@ -24,6 +24,7 @@
       <img
         class="w-72 rounded-xl shadow-xl md:w-96"
         :src="require('images/team.jpg')"
+        alt="Equipo de Bichito"
       >
     </div>
   </section>

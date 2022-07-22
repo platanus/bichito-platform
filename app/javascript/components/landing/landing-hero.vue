@@ -15,10 +15,11 @@
     <img
       :src="require('images/code-picture.png')"
       class="absolute top-52 w-9/12 sm:w-7/12 lg:w-6/12"
+      alt="Consola con código de ejemplo"
     >
     <div class="sm:mt-48 xl:mt-80 2xl:mt-96">
       <bichito-button
-        href="#program"
+        href="#goals"
       >
         Conocer más del programa
       </bichito-button>

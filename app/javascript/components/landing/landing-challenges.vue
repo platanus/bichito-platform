@@ -26,12 +26,12 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="flex flex-col items-center px-8 pt-10 w-full bg-slate-900 md:pt-16 lg:px-56">
+  <section class="flex flex-col items-center px-8 pt-10 w-full md:pt-16 lg:px-56">
     <div class="flex flex-col items-center w-full md:items-start ">
-      <h1 class="text-xl font-semibold text-center text-white md:text-3xl md:text-left ">
+      <h1 class="text-xl font-semibold text-center text-slate-800 md:text-3xl md:text-left ">
         ¿Quieres familiarizarte?
       </h1>
-      <div class="pt-8 text-sm text-center text-white md:pt-5 md:text-lg md:text-left">
+      <div class="pt-8 text-sm text-center text-slate-800 md:pt-5 md:text-lg md:text-left">
         Tenemos una recopilación de guías y desafíos que puedes intentar por tu cuenta por mientras
       </div>
     </div>
@@ -53,8 +53,8 @@ onMounted(() => {
     </div>
     <div class="py-16">
       <bichito-button
-        test-id="show-more-button"
         v-if="SHOW_MORE_CHALLENGES"
+        test-id="show-more-button"
         href="#challenges"
         theme="yellow"
       >

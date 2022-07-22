@@ -1,7 +1,7 @@
 <script setup lang='ts'>
 
 defineProps<{
-  goal: goal,
+  goal: Goal,
   iconName: string,
 }>();
 

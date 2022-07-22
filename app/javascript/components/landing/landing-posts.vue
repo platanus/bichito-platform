@@ -29,7 +29,7 @@ onMounted(() => {
 <template>
   <section
     v-if="!loading"
-    class="flex relative flex-col items-center px-4 pb-16 md:pb-14"
+    class="flex relative flex-col items-center"
   >
     <div class="flex flex-col items-center">
       <h2 class="mb-10 text-2xl font-semibold text-center text-slate-800 lg:text-4xl">
@@ -47,7 +47,7 @@ onMounted(() => {
       :src="require('images/bee-path-2.svg')"
       class="absolute -top-10 right-0 scale-50 origin-top-right md:scale-75 lg:scale-100"
     />
-    <div class="mt-12 w-[80%] md:grid md:grid-cols-3">
+    <div class="mt-12 w-[80%] md:grid md:grid-cols-3 md:mt-24">
       <post-card
         v-for="(post, id) in posts "
         :key="`news-card-${post.id}`"

@@ -12,7 +12,7 @@ function width() {
 const icons = ['code-icon-rose', 'code-icon-purple',
   'code-icon-emerald', 'code-icon-orange', 'code-icon-blue'];
 
-function goalIcon(index) {
+function goalIcon(index: number) {
   const iconsLength = icons.length;
   const iconNumber = index <= iconsLength ? index : ((index % iconsLength) - 1);
 
@@ -27,7 +27,8 @@ const image = width() >= mdScreenSize ? 'bee-path-linear' : 'bee-path-linear-md'
 
 <template>
   <section
-    class="flex justify-center pt-64 pb-10 sm:pt-0"
+    id="goals"
+    class="flex justify-center pt-64 pb-10 sm:pt-0 md:mt-52 md:mb-28"
   >
     <div class="flex relative flex-col justify-center w-11/12 lg:pt-0 lg:w-9/12">
       <h2 class="pb-8 ml-4 text-3xl font-semibold text-slate-800 sm:text-4xl">
@@ -37,7 +38,7 @@ const image = width() >= mdScreenSize ? 'bee-path-linear' : 'bee-path-linear-md'
         <div class="grid z-40 gap-2 sm:grid-cols-2 lg:grid-cols-3">
           <goal-card
             v-for="(goal, index) in props.goals"
-            :key="goal.id"
+            :key="index"
             :goal="goal"
             :icon-name="goalIcon(index)"
           />

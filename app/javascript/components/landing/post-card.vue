@@ -36,7 +36,7 @@ const currentVariant = computed(() => variantStyles[props.variant as keyof typeo
       <img
         v-if="imageUrl"
         :src="imageUrl"
-        class="aspect-21/20 flex object-cover flex-col mb-4 w-full rounded-2xl md:mb-6 "
+        class="aspect-21/20 flex object-cover flex-col mb-4 w-full rounded-lg md:mb-6 md:rounded-xl "
       >
       <div
         v-else

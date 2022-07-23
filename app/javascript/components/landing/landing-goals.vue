@@ -31,7 +31,7 @@ const image = width() >= mdScreenSize ? 'bee-path-linear' : 'bee-path-linear-md'
     class="flex justify-center pt-64 pb-10 sm:pt-0 md:mt-52 md:mb-28"
   >
     <div class="flex relative flex-col justify-center w-11/12 lg:pt-0 lg:w-9/12">
-      <h2 class="pb-8 ml-4 text-3xl font-semibold text-slate-800 sm:text-4xl">
+      <h2 class="pb-8 mx-4 text-3xl font-semibold text-slate-800 sm:text-4xl">
         Nuestros objetivos
       </h2>
       <div class="flex flex-col justify-center items-center space-y-12 w-full">

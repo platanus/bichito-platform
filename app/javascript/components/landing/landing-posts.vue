@@ -31,11 +31,11 @@ onMounted(() => {
     v-if="!loading"
     class="flex relative flex-col items-center"
   >
-    <div class="flex flex-col items-center">
+    <div class="flex flex-col items-center pt-28 lg:pt-48">
       <h2 class="mb-10 text-2xl font-semibold text-center text-slate-800 lg:text-4xl">
         Nuestra historia
       </h2>
-      <p class="w-9/12 text-center">
+      <p class="pb-10 w-9/12 lg:text-center">
         Bichito nace de una idea que surgió en la semana Platanus del año 2019,
         como una forma de aportar un granito de arena a la sociedad desde nuestras
         habilidades computinas. Se trata de un taller de introducción a la programación
@@ -45,7 +45,7 @@ onMounted(() => {
     </div>
     <inline-svg
       :src="require('images/bee-path-2.svg')"
-      class="absolute -top-10 right-0 scale-50 origin-top-right md:scale-75 lg:scale-100"
+      class="absolute top-12 right-0 scale-50 origin-top-right md:scale-75 lg:scale-100"
     />
     <div class="mt-12 w-[80%] md:grid md:grid-cols-3 md:mt-24">
       <post-card
@@ -54,7 +54,6 @@ onMounted(() => {
         :variant="POSTS_VARIANTS[id]"
         :title="post.title"
         :image-url="post.imageUrl"
-        :bg-cards="post.bgCards"
       />
     </div>
   </section>

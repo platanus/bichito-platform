@@ -8,7 +8,7 @@
     <div class="mx-10 md:flex md:justify-between md:mx-32 lg:mx-56">
       <div>
         <inline-svg
-          class="mb-4 lg:mb-10 w-32 text-white"
+          class="mb-4 w-32 text-white lg:mb-10"
           :src="require('images/bichito-logo.svg')"
           alt="Logo Bichito"
         />

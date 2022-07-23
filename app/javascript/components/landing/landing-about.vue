@@ -1,6 +1,32 @@
+<script setup>
+
+const screenSizes = {
+  'sm': 'yellow-background-sm',
+  'md': 'yellow-background-md',
+  'lg': 'yellow-background-lg',
+};
+
+function width() {
+  const screenWidth = window.innerWidth;
+  const mdSize = 768;
+  const smSize = 640;
+
+  if (screenWidth <= smSize) {
+    return 'sm';
+  } else if (screenWidth > smSize && screenWidth <= mdSize) {
+    return 'md';
+  }
+
+  return 'lg';
+}
+
+const bgImage = screenSizes[width()];
+
+</script>
+
 <template>
   <section
-    :style="`background-image: url('${require('images/yellow-background.png')}')`"
+    :style="`background-image: url('${require(`images/${bgImage}.png`)}')`"
     class="flex justify-center h-screen bg-center bg-cover"
   >
     <div class="flex flex-col items-center pt-40 w-9/12 md:pt-64 lg:flex-row lg:pt-0">

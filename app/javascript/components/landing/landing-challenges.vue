@@ -26,9 +26,9 @@ onMounted(() => {
 </script>
 
 <template>
-  <section class="flex flex-col items-center px-8 pt-10 w-full md:pt-16 lg:px-56">
+  <section class="flex flex-col items-center px-8 pt-10 w-full md:pt-16 lg:px-36">
     <div class="flex flex-col items-center w-full md:items-start ">
-      <h1 class="text-xl font-semibold text-center text-slate-800 md:text-3xl md:text-left ">
+      <h1 class="text-2xl font-semibold text-center text-slate-800 md:text-4xl md:text-left ">
         ¿Quieres familiarizarte?
       </h1>
       <div class="pt-8 text-sm text-center text-slate-800 md:pt-5 md:text-lg md:text-left">
@@ -37,7 +37,7 @@ onMounted(() => {
     </div>
     <div
       v-if="!loading"
-      class="flex overflow-x-auto flex-row pt-11 w-full md:grid md:grid-cols-3 md:gap-8"
+      class="flex overflow-x-auto flex-row w-full md:grid md:grid-cols-3 md:gap-8"
     >
       <challenge-card
         v-for="challenge in challenges"

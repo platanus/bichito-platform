@@ -15,12 +15,6 @@ ActiveRecord::Schema.define(version: 2022_07_28_205741) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
 
-  create_table "about_pictures", force: :cascade do |t|
-    t.jsonb "image_data"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-  end
-
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
     t.text "body"
@@ -58,9 +52,6 @@ ActiveRecord::Schema.define(version: 2022_07_28_205741) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "data_migrations", primary_key: "version", id: :string, force: :cascade do |t|
-  end
-
   create_table "goals", force: :cascade do |t|
     t.string "title"
     t.integer "order"
@@ -82,15 +73,6 @@ ActiveRecord::Schema.define(version: 2022_07_28_205741) do
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.jsonb "image_data"
-  end
-
-  create_table "program_themes", force: :cascade do |t|
-    t.string "title"
-    t.text "description"
-    t.string "duration"
-    t.integer "order"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
   end
 
   create_table "users", force: :cascade do |t|
